@@ -1,12 +1,1 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="default" default="true" eventProcessingMode="stream" equalsBehavior="identity">
-    <ksession name="sla" type="stateless" default="true" clockType="realtime">
-      <workItemHandlers>
-        <workItemHandler type="ServiceHandler" name="org.kie.simple.ServiceHandler"/>
-      </workItemHandlers>
-      <listeners>
-        <processEventListener type="org.kie.simple.SLAViolationHandler"/>
-      </listeners>
-    </ksession>
-  </kbase>
-</kmodule>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

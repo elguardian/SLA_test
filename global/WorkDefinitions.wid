@@ -79,6 +79,29 @@
      "displayName" : "Decision Task",
      "icon" : "defaultdecisionicon.png",
      "category" : "Decision tasks"
-   ]
+   ],
+        [
+            "name" : "ServiceHandler",
+            "displayName" : "ServiceHandler",
+            "category" : "",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.kie.simple.ServiceHandler()",
+            "documentation" : "",
+
+            "parameters" : [
+                                "SLAGroupId" : new StringDataType()
+                ,"SLAMode" : new StringDataType()
+                ,"ViolationAction" : new StringDataType()
+                ,"MaxAutoRetry" : new StringDataType()
+                ,"RetrySignalName" : new StringDataType()
+
+            ],
+            "results" : [
+                                "name" : new StringDataType()
+
+            ],
+            "icon" : ""
+
+        ]
 
 ]

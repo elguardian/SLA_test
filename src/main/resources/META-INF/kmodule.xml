@@ -1,5 +1,5 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="default" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+  <kbase name="default" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.myspace.sla_test">
     <ksession name="sla" type="stateless" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="org.kie.simple.ServiceHandler" name="ServiceHandler"/>

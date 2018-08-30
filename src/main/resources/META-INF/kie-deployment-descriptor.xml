@@ -9,7 +9,7 @@
     <event-listeners>
         <event-listener>
             <resolver>mvel</resolver>
-            <identifier>org.kie.simple.SLAViolationHandler</identifier>
+            <identifier>new org.kie.simple.SLAViolationHandler()</identifier>
             <parameters/>
         </event-listener>
     </event-listeners>

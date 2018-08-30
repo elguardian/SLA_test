@@ -12,6 +12,4 @@ public class datos implements java.io.Serializable {
     }
 
 
-
-
 }

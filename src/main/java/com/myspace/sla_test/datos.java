@@ -6,10 +6,23 @@ package com.myspace.sla_test;
 
 public class datos implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public datos() {
-    }
+	private java.lang.Integer datos;
 
+	public datos() {
+	}
+
+	public java.lang.Integer getDatos() {
+		return this.datos;
+	}
+
+	public void setDatos(java.lang.Integer datos) {
+		this.datos = datos;
+	}
+
+	public datos(java.lang.Integer datos) {
+		this.datos = datos;
+	}
 
 }

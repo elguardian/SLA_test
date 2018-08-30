@@ -100,7 +100,8 @@
                                 "name" : new StringDataType()
 
             ],
-            "icon" : ""
+            "icon" : "",
+            "eclipse:customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.HumanTaskCustomEditor",
 
         ]
 

@@ -89,10 +89,10 @@
             "documentation" : "",
 
             "parameters" : [
-                                "SLAGroupId" : new StringDataType()
-                ,"SLAMode" : new StringDataType()
-                ,"ViolationAction" : new StringDataType()
-                ,"MaxAutoRetry" : new StringDataType()
+                 "SLAGroupId" : new StringDataType()
+                ,"SLAMode" : new EnumDataType("org.kie.simple.TimerMode")
+                ,"ViolationAction" : new EnumDataType("org.kie.simple.ViolationAction")
+                ,"MaxAutoRetry" : new IntegerDataType()
                 ,"RetrySignalName" : new StringDataType()
 
             ],

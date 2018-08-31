@@ -97,6 +97,9 @@ System.out.println("****INIT****");]]></bpmn2:script>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[ServiceHandler]]></drools:metaValue>
         </drools:metaData>
+        <drools:metaData name="customSLADueDate">
+          <drools:metaValue><![CDATA[5s]]></drools:metaValue>
+        </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_06348FCB-C3FF-4529-B748-094BC469D02F</bpmn2:incoming>
       <bpmn2:outgoing>_55727751-C5AB-4AEF-BED4-68AA3263F0CD</bpmn2:outgoing>

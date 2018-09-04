@@ -173,7 +173,7 @@ System.out.println("****INIT****");]]></bpmn2:script>
       <bpmn2:outgoing>_C6B1D581-6B87-4819-9A01-5176CBB22AAE</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
     <bpmn2:sequenceFlow id="_94A4D77F-2CA9-41E7-B260-ED6F9578B9A9" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_C7C77337-F07A-4885-9D1A-7C3C94E31162" targetRef="_EC28CF16-D6A7-4FFA-8323-A62B7755754B">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70Z7AkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return  KieFunctions.isNull(slaInfo);]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70Z7AkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:exclusiveGateway id="_3FCB0905-B933-4F88-A408-67A7167A4C4F" drools:selectable="true" drools:dg="" color:background-color="#f0e68c" color:border-color="#a67f00" color:color="#000000" name="" gatewayDirection="Diverging">
       <bpmn2:incoming>_B22C8CCE-28C3-4D16-B164-6869CB50C842</bpmn2:incoming>
@@ -190,7 +190,7 @@ System.out.println("****INIT****");]]></bpmn2:script>
       <bpmn2:incoming>_734B67BC-6420-4A86-A4F3-DF6B6A7FD61F</bpmn2:incoming>
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_734B67BC-6420-4A86-A4F3-DF6B6A7FD61F" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_3FCB0905-B933-4F88-A408-67A7167A4C4F" targetRef="_8C2688FD-0D92-4B52-B045-BC4C18984160">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70aLAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return !KieFunctions.lessOrEqualThan(counter, slaInfo.getMaxRetries());]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70aLAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_1y8bYLAkEeijuL1F6umtyQ">

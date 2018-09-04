@@ -68,10 +68,10 @@ kcontext.setVariable("counter", counter);
       <bpmn2:incoming>_38242C5E-DCAE-4C0A-B70B-16ADE09B32DE</bpmn2:incoming>
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_C6B1D581-6B87-4819-9A01-5176CBB22AAE" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_C7C77337-F07A-4885-9D1A-7C3C94E31162" targetRef="_522E7A5E-F879-49AE-B8E5-DC976C2C910B">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70UbAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return  !KieFunctions.lessOrEqualThan(counter, slaInfo.getMaxRetries());]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70UbAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return  !KieFunctions.lessOrEqualThan(counter, slaInfo.getMaxRetries().toString());]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_908D4261-B684-4A8C-B6C2-54B2F2842072" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_3FCB0905-B933-4F88-A408-67A7167A4C4F" targetRef="_909B5EDC-DC6D-4A52-8D55-BDA643344E49">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70UrAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return  KieFunctions.lessOrEqualThan(counter, slaInfo.getMaxRetries());]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_1y70UrAkEeijuL1F6umtyQ" language="http://www.java.com/java"><![CDATA[return  KieFunctions.lessOrEqualThan(counter, slaInfo.getMaxRetries().toString());]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:scriptTask id="_9A1559B8-B45B-439E-A2FB-FF57CCE97A4C" drools:selectable="true" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="init " scriptFormat="http://www.java.com/java">
       <bpmn2:extensionElements>

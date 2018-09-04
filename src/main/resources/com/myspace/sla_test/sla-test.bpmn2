@@ -42,7 +42,7 @@
       <bpmn2:script><![CDATA[System.out.println("RETRY");
 Integer counter = (Integer) kcontext.getVariable("counter");
 counter = (counter == null) ? 0 : counter + 1;
-kcontext.setVariable(signalName + "counter", counter);
+kcontext.setVariable("counter", counter);
 
 ]]></bpmn2:script>
     </bpmn2:scriptTask>

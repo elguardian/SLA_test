@@ -28,6 +28,9 @@
       <import>
         <type>java.util.HashMap</type>
       </import>
+      <import>
+        <type>org.kie.simple.SLAInfo</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>

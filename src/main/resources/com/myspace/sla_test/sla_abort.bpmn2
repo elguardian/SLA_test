@@ -36,7 +36,7 @@
       <bpmn2:script><![CDATA[System.out.println("END");]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_B5343679-5F03-4140-B644-0504E3486AC6" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_7E7BB6B5-77E9-460B-B782-E753175C12D7" targetRef="_F0ECEB18-DD3F-408D-B03C-354E31835E94">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_pXIdIbKkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[return slaInfo == null;]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_pXIdIbKkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:endEvent id="_C2EB81F5-61D2-40AD-90EE-2E6F988D0493" drools:selectable="true" color:background-color="#ff6347" color:border-color="#000000" color:color="#000000" name="">
       <bpmn2:extensionElements>
@@ -91,11 +91,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_20276BCC-9F65-4F96-B2EA-0D43483FCC45</bpmn2:outgoing>
-      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="org.kie.simple.SLAInfo" name="event"/>
-      <bpmn2:dataOutputAssociation id="_pXIdK7KkEeieHojOFuPZgQ">
-        <bpmn2:sourceRef>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:sourceRef>
-        <bpmn2:targetRef>slaInfo</bpmn2:targetRef>
-      </bpmn2:dataOutputAssociation>
+      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="java.lang.Object" name="event"/>
       <bpmn2:outputSet id="_pXIdKrKkEeieHojOFuPZgQ">
         <bpmn2:dataOutputRefs>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:dataOutputRefs>
       </bpmn2:outputSet>

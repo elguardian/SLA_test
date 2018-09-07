@@ -101,7 +101,7 @@
       </bpmn2:potentialOwner>
     </bpmn2:userTask>
     <bpmn2:sequenceFlow id="_83AC0953-F47D-49B9-8695-DE839E7976D9" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_E12587A2-46D8-47C0-8D15-A2D27F1854A7" targetRef="_F36740C8-4A20-498D-9235-88F88CEE3498">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_xu4yULKkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[return slaInfo != null;]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_xu4yULKkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:exclusiveGateway id="_8D0E47C7-9314-42C8-B87A-1DC94CA24989" drools:selectable="true" drools:dg="" color:background-color="#f0e68c" color:border-color="#a67f00" color:color="#000000" name="" gatewayDirection="Diverging">
       <bpmn2:incoming>_7B59643E-16BF-41E8-9EE5-7362590F34CB</bpmn2:incoming>
@@ -159,7 +159,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_83AC0953-F47D-49B9-8695-DE839E7976D9</bpmn2:outgoing>
-      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="org.kie.simple.SLAInfo" name="event"/>
+      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="java.lang.Object" name="event"/>
       <bpmn2:dataOutputAssociation id="_xu4yXLKkEeieHojOFuPZgQ">
         <bpmn2:sourceRef>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:sourceRef>
         <bpmn2:targetRef>slaInfo</bpmn2:targetRef>

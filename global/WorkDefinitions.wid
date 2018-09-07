@@ -79,6 +79,18 @@
      "displayName" : "Decision Task",
      "icon" : "defaultdecisionicon.png",
      "category" : "Decision tasks"
-   ]
+   ],
+   ,
+        [
+            "name" : "ServiceHandler",
+            "displayName" : "ServiceHandler",
+            "category" : "",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.kie.simple.ServiceHandler()",
+            "documentation" : "",
+            "results" : [
+                "name" : new StringDataType()
+            ],
+        ]
 
 ]

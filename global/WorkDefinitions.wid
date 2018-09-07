@@ -87,16 +87,12 @@
             "description" : "",
             "defaultHandler" : "mvel: new org.kie.simple.ServiceHandler()",
             "documentation" : "",
-
             "parameters" : [
             ],
             "results" : [
-                                "name" : new StringDataType()
-
+                "name" : new StringDataType()
             ],
             "icon" : "",
-            "eclipse:customEditor" : "org.drools.eclipse.flow.common.editor.editpart.work.HumanTaskCustomEditor",
-
         ]
 
 ]

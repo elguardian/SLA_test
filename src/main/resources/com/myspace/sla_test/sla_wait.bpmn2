@@ -124,7 +124,7 @@
       <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_xu4yUrKkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[return action.equals("abort");]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_41B2E3B6-72B2-4768-AEBF-9410E7906458" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_BD33E526-0D4D-434B-9BE5-3F0C52A2A80F" targetRef="_F0ECEB18-DD3F-408D-B03C-354E31835E94">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_xu4yU7KkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[return slaInfo == null;]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_xu4yU7KkEeieHojOFuPZgQ" language="http://www.java.com/java"><![CDATA[]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:task id="_BD33E526-0D4D-434B-9BE5-3F0C52A2A80F" drools:selectable="true" drools:taskName="ServiceHandler" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="ServiceHandler">
       <bpmn2:extensionElements>
@@ -159,11 +159,6 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_83AC0953-F47D-49B9-8695-DE839E7976D9</bpmn2:outgoing>
-      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="java.lang.Object" name="event"/>
-      <bpmn2:dataOutputAssociation id="_xu4yXLKkEeieHojOFuPZgQ">
-        <bpmn2:sourceRef>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:sourceRef>
-        <bpmn2:targetRef>slaInfo</bpmn2:targetRef>
-      </bpmn2:dataOutputAssociation>
       <bpmn2:outputSet id="_xu4yW7KkEeieHojOFuPZgQ">
         <bpmn2:dataOutputRefs>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:dataOutputRefs>
       </bpmn2:outputSet>

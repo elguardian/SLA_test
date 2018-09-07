@@ -34,7 +34,7 @@
     <environment-entries>
         <environment-entry>
             <resolver>mvel</resolver>
-            <identifier>false</identifier>
+            <identifier>"false"</identifier>
             <parameters/>
             <name>SLATimerMode</name>
         </environment-entry>

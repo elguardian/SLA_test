@@ -92,7 +92,7 @@
             "results" : [
                 "name" : new StringDataType()
             ],
-            "icon" : "",
+            "icon" : ""
         ]
 
 ]

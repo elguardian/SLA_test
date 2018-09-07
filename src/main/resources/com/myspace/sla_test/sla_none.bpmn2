@@ -58,6 +58,9 @@
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[ServiceHandler]]></drools:metaValue>
         </drools:metaData>
+        <drools:metaData name="customSLADueDate">
+          <drools:metaValue><![CDATA[5s]]></drools:metaValue>
+        </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_2EB88A00-3D16-4101-AF0F-099963FA5B7F</bpmn2:incoming>
       <bpmn2:outgoing>_B32A6CFD-C25F-4132-AD2C-3966FECE50ED</bpmn2:outgoing>

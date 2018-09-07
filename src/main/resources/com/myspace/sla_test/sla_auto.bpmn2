@@ -122,11 +122,7 @@ kcontext.setVariable("counter", counter);
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_83AC0953-F47D-49B9-8695-DE839E7976D9</bpmn2:outgoing>
-      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="org.kie.simple.SLAInfo" name="event"/>
-      <bpmn2:dataOutputAssociation id="_s8QJvLKkEeieHojOFuPZgQ">
-        <bpmn2:sourceRef>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:sourceRef>
-        <bpmn2:targetRef>slaInfo</bpmn2:targetRef>
-      </bpmn2:dataOutputAssociation>
+      <bpmn2:dataOutput id="_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event" drools:dtype="java.lang.Object" name="event"/>
       <bpmn2:outputSet id="_s8QJu7KkEeieHojOFuPZgQ">
         <bpmn2:dataOutputRefs>_E12587A2-46D8-47C0-8D15-A2D27F1854A7_event</bpmn2:dataOutputRefs>
       </bpmn2:outputSet>
